@@ -1,0 +1,66 @@
+arviz @ file:///home/conda/feedstock_root/build_artifacts/arviz_1633274821480/work
+atomicwrites==1.4.0
+attrs==21.2.0
+beautifulsoup4==4.10.0
+bs4==0.0.1
+category-encoders==2.3.0
+certifi==2021.10.8
+cftime @ file:///D:/bld/cftime_1636281015942/work
+charset-normalizer==2.0.4
+click==8.0.3
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+convertdate @ file:///home/conda/feedstock_root/build_artifacts/convertdate_1615678826465/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+Cython @ file:///D:/bld/cython_1638830072925/work
+dnspython==2.1.0
+ephem @ file:///D:/bld/ephem_1638038285989/work
+fbprophet @ file:///D:/bld/fbprophet_1599365958928/work
+Flask==2.0.2
+fonttools @ file:///D:/bld/fonttools_1638544517672/work
+hijri-converter @ file:///home/conda/feedstock_root/build_artifacts/hijri-converter_1632549476122/work
+holidays @ file:///home/conda/feedstock_root/build_artifacts/holidays_1632959329709/work
+idna==3.2
+importlib-metadata @ file:///D:/bld/importlib-metadata_1636431708851/work
+iniconfig==1.1.1
+itsdangerous==2.0.1
+Jinja2==3.0.3
+joblib==1.1.0
+kiwisolver @ file:///D:/bld/kiwisolver_1635836839743/work
+korean-lunar-calendar @ file:///home/conda/feedstock_root/build_artifacts/korean_lunar_calendar_1589354365811/work
+LunarCalendar==0.0.9
+MarkupSafe==2.0.1
+matplotlib @ file:///D:/bld/matplotlib-suite_1637205247343/work
+munkres==1.1.4
+netCDF4 @ file:///D:/bld/netcdf4_1636303174001/work
+numpy @ file:///D:/bld/numpy_1636145500119/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+pandas==1.3.5
+patsy==0.5.2
+Pillow @ file:///D:/bld/pillow_1636558975346/work
+pluggy==0.13.1
+py==1.10.0
+PyMeeus @ file:///home/conda/feedstock_root/build_artifacts/pymeeus_1615809745702/work
+pymongo==3.11.3
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1636757021002/work
+pystan==2.19.1.1
+pytest==6.2.2
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1633452062248/work
+requests==2.26.0
+scikit-learn==1.0.1
+scipy @ file:///C:/bld/scipy_1637806857964/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sklearn==0.0
+soupsieve==2.3.1
+statsmodels==0.13.1
+threadpoolctl==3.0.0
+toml==0.10.2
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1632160078689/work
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1632313171031/work
+unicodedata2 @ file:///D:/bld/unicodedata2_1637177842659/work
+urllib3==1.26.3
+Werkzeug==2.0.2
+wincertstore==0.2
+xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1639125986756/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1633302054558/work

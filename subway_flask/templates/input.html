@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/third.css') }}">
+    <title>Hello, Subway!</title>
+  </head>
+  <body id="inBody">
+    <section id="inputArea">
+      <!-- 오늘의 날씨 정보 있는 영역 -->
+
+      <aside>
+        <article class="title">
+          Today is
+        </article>
+        <div id="content">
+          <article>
+            날씨: {{ weather }} <br>
+            최고 기온: {{ maxTa }} °C <br>
+            최저 기온: {{ minTa }} °C <br>
+            평균 기온: {{ nowTa }} °C <br> <br>
+
+            오늘의 확진자 수는<br> {{ todayPeople }} 명 입니다.
+          </article>
+    </div>
+    </aside>
+
+      <!-- 입력받는 영역 -->
+      <form method="POST" action="/predict">
+          <span> 날짜:
+          <input type="date" name="p_date" id="date" required>
+          <input type="checkbox" name="p_holiday" id="holiday" class="checkbox">
+          주말/공휴일</span>
+          <br><br>
+          <span> 알고 싶은 역:
+            <select name="p_subline" id="startSubline" required>
+                <option value="1">1호선</option>
+                <option value="2">2호선</option>
+                <option value="3">3호선</option>
+                <option value="4">4호선</option>
+                <option value="5">5호선</option>
+                <option value="6">6호선</option>
+                <option value="7">7호선</option>
+                <option value="8">8호선</option>
+            </select>
+            <input type="text" name="p_station" placeholder="서울" id="station" class="station" required>
+
+            </span><br><br>
+          <span>예상 최저 기온: <input type="number" name="p_min" id="minTa" class="temperature" required> </span>  <br>
+          <span>예상 평균 기온: <input type="number" name="p_avg" id="avgTa" class="temperature" required> </span>  <br>
+          <span>예상 최고 기온: <input type="number" name="p_max" id="maxTa" class="temperature" required> </span>  <br>
+          <span>강수 예상: <input type="checkbox" name="p_rain" id="rain" class="checkbox"></span> <br>
+
+          <div id="toCenter">
+          <input type="submit" value="결과보기" class="button">
+        </div>
+      </form>
+
+      <!-- 우상단 바로가기 아이콘 영역 -->
+    <nav>
+      <a href="/" class="icon"><img src="{{ url_for('static', filename='images/homeIcon2.png') }}" alt="home"></a>
+      <a href="http://localhost:3000/dashboard/2-section3-duplicate" class="icon"><img src="{{ url_for('static', filename='images/dashboardIcon2.png') }}" alt="dashboard"></a>
+      <!-- <a href="input.html" class="icon"><img src="res/resetIcon.png" alt="reset"></a> -->
+
+
+    </nav>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
