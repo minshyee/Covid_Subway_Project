@@ -16,5 +16,3 @@
 ## Model
 - Random Forest Regressor : 지하철 이용객 수 예측 
 - Prophet : 시계열 예측 - 코로나 확진자 수
-
-## Play
